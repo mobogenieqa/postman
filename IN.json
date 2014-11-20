@@ -1,0 +1,42 @@
+{
+	"id": "b151b3b8-5228-6b44-97ac-4a14c7de61c5",
+	"name": "IN",
+	"values": [
+		{
+			"key": "site",
+			"value": "http://in.",
+			"type": "text",
+			"name": "site",
+			"enabled": true
+		},
+		{
+			"key": "subject_id",
+			"value": "1346",
+			"type": "text",
+			"name": "subject_id",
+			"enabled": true
+		},
+		{
+			"key": "app_apkId",
+			"value": "com.kimusoft.voice_changer_chipmunk",
+			"type": "text",
+			"name": "app_apkId",
+			"enabled": true
+		},
+		{
+			"key": "helper",
+			"value": "helper.voga360.com",
+			"type": "text",
+			"name": "helper",
+			"enabled": true
+		},
+		{
+			"key": "wall_subject_id",
+			"type": "text",
+			"value": "1409"
+		}
+	],
+	"timestamp": 1416394573771,
+	"synced": false,
+	"syncedFilename": ""
+}

@@ -1,0 +1,27 @@
+{
+	"id": "e95c28de-4f2f-1534-8ac8-13b1b3c33760",
+	"name": "GL",
+	"values": [
+		{
+			"key": "url",
+			"value": "http://helper.voga360.com",
+			"type": "text",
+			"name": "url",
+			"enabled": true
+		},
+		{
+			"key": "subject_id",
+			"type": "text",
+			"value": "931"
+		},
+		{
+			"key": "app_apkId",
+			"type": "text",
+			"value": "com.workflowy.android"
+		}
+	],
+	"timestamp": 1415702741095,
+	"synced": false,
+	"syncedFilename": ""
+}
+
