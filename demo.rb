@@ -59,4 +59,4 @@ Open3.popen2e(cmd) do |stdin, stdout_err, wait_thr|
 	end
 end
 file_name= $PRO+Time.now.to_s 
-IO.write("./#{file_name}.log",str)
+IO.write("./#{$PRO}.log",str)
