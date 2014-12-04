@@ -33,7 +33,7 @@ Open3.popen2e(cmd) do |stdin, stdout_err, wait_thr|
 			time.gsub!("ms","")
 			
 			str << "\"postman.test.url[#{name}]\"" + " " + "\"" + url + "\"" + "\n"
-			str << "\"postman.test.code[#{name}]\"" + " " + code + "\n"
+			str << "\"postman.test.rspcode[#{name}]\"" + " " + code + "\n"
 			str << "\"postman.test.time[#{name}]\"" + " " + time + "\n"
 			
 		elsif /\u2714/.match(line) or /\u2717/.match(line)
