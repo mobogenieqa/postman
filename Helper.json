@@ -45,7 +45,6 @@
 				"2386e2f1-de38-fa7e-19b3-a7abfbf59994",
 				"ed76f392-0a87-b211-3260-e806a2513862",
 				"9d1e0960-592f-d66c-4bc9-b1f29fd34590",
-				"cd44c499-2634-1c85-bc0c-9c7fb98d950f",
 				"a045f3e6-60d5-07b6-80f6-195c43d1b043",
 				"3c2107a0-5464-b804-ed0b-11796ff14630",
 				"5330fd21-27b2-af06-0657-b8c46008ce8c",
@@ -98,6 +97,7 @@
 	],
 	"timestamp": 1415342031728,
 	"synced": false,
+	"remoteLink": "",
 	"requests": [
 		{
 			"id": "00abed96-a005-4723-d5e1-8516c2f8cd13",
@@ -570,24 +570,6 @@
 			"responses": [],
 			"tests": "",
 			"collectionId": "c18c4e00-c3f7-d756-a839-c8a369aa675b",
-			"synced": false
-		},
-		{
-			"id": "cd44c499-2634-1c85-bc0c-9c7fb98d950f",
-			"headers": "",
-			"url": "{{site}}{{helper}}/nclient/sjson/ringtone/recommend.htm?a=recmd_ring_home_1",
-			"preRequestScript": "",
-			"pathVariables": {},
-			"method": "GET",
-			"data": [],
-			"dataMode": "params",
-			"version": 2,
-			"tests": "var data = JSON.parse(responseBody);\ntests[\"Your test name\"] = data.data.recommendList.length > 0;\n\nvar schema = {\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"id\": \"http://jsonschema.net#\",\n  \"type\": \"object\",\n  \"additionalProperties\": false,\n  \"properties\": {\n    \"data\": {\n      \"id\": \"#data\",\n      \"type\": \"object\",\n      \"additionalProperties\": false,\n      \"properties\": {\n        \"recommendList\": {\n          \"id\": \"#recommendList\",\n          \"type\": \"array\",\n          \"additionalProperties\": false,\n          \"items\": {},\n          \"required\": []\n        },\n        \"recommendInfo\": {\n          \"id\": \"#recommendInfo\",\n          \"type\": \"object\",\n          \"additionalProperties\": false,\n          \"properties\": {\n            \"id\": {\n              \"id\": \"#id\",\n              \"type\": \"integer\",\n              \"additionalProperties\": false\n            },\n            \"wallpaperRecommends\": {\n              \"id\": \"#wallpaperRecommends\",\n              \"type\": \"null\",\n              \"additionalProperties\": false\n            },\n            \"showName\": {\n              \"id\": \"#showName\",\n              \"type\": \"string\",\n              \"additionalProperties\": false\n            },\n            \"mtypeCode\": {\n              \"id\": \"#mtypeCode\",\n              \"type\": \"integer\",\n              \"additionalProperties\": false\n            },\n            \"description\": {\n              \"id\": \"#description\",\n              \"type\": \"string\",\n              \"additionalProperties\": false\n            },\n            \"name\": {\n              \"id\": \"#name\",\n              \"type\": \"string\",\n              \"additionalProperties\": false\n            },\n            \"typeCode\": {\n              \"id\": \"#typeCode\",\n              \"type\": \"integer\",\n              \"additionalProperties\": false\n            },\n            \"display\": {\n              \"id\": \"#display\",\n              \"type\": \"integer\",\n              \"additionalProperties\": false\n            },\n            \"ringtonesRecommends\": {\n              \"id\": \"#ringtonesRecommends\",\n              \"type\": \"null\",\n              \"additionalProperties\": false\n            },\n            \"appRecommends\": {\n              \"id\": \"#appRecommends\",\n              \"type\": \"null\",\n              \"additionalProperties\": false\n            }\n          },\n          \"required\": []\n        },\n        \"code\": {\n          \"id\": \"#code\",\n          \"type\": \"string\",\n          \"additionalProperties\": false\n        }\n      },\n      \"required\": []\n    }\n  },\n  \"required\": []\n};\n\nconsole.log(tv4.error);\ntests[\"Valid Json schema\"] = tv4.validate(data, schema);",
-			"time": 1415773376687,
-			"name": "recmd_ring_home",
-			"description": "recmd_ring_home_1:   (前台显示名称Top Ringtones),\nrecmd_ring_newest_1:  (前台显示名称Newest Ringtones)，\nrecmd_ring_featured_1： (前台显示名称Featured Ringtones)\nandroid_recmd_home：(前台显示名称HOT RINGTONE)",
-			"collectionId": "c18c4e00-c3f7-d756-a839-c8a369aa675b",
-			"responses": [],
 			"synced": false
 		},
 		{
