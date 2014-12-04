@@ -10,20 +10,6 @@
 			"enabled": true
 		},
 		{
-			"key": "subject_id",
-			"value": "1346",
-			"type": "text",
-			"name": "subject_id",
-			"enabled": true
-		},
-		{
-			"key": "app_apkId",
-			"value": "com.kimusoft.voice_changer_chipmunk",
-			"type": "text",
-			"name": "app_apkId",
-			"enabled": true
-		},
-		{
 			"key": "helper",
 			"value": "helper.voga360.com",
 			"type": "text",
@@ -31,12 +17,34 @@
 			"enabled": true
 		},
 		{
+			"key": "subject_id",
+			"value": "1500",
+			"type": "text",
+			"name": "subject_id",
+			"enabled": true
+		},
+		{
+			"key": "eb_subject_id",
+			"type": "text",
+			"value": "819"
+		},
+		{
+			"key": "music_subject_id",
+			"type": "text",
+			"value": "1543"
+		},
+		{
+			"key": "app_apkId",
+			"type": "text",
+			"value": "com.irctc.main"
+		},
+		{
 			"key": "wall_subject_id",
 			"type": "text",
-			"value": "1409"
+			"value": "1583"
 		}
 	],
-	"timestamp": 1416394573771,
+	"timestamp": 1417655504512,
 	"synced": false,
 	"syncedFilename": ""
 }
