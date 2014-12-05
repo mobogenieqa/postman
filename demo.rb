@@ -1,7 +1,7 @@
 require 'open3'
 require 'optparse'
 
-`sudo git pull`
+#{}`sudo git pull`
 options = {}
 option_parser = OptionParser.new do |opts|
 	# Create a switch
