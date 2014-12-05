@@ -3,25 +3,61 @@
 	"name": "GL",
 	"values": [
 		{
-			"key": "url",
-			"value": "http://helper.voga360.com",
+			"key": "site",
+			"value": "http://",
 			"type": "text",
-			"name": "url",
+			"name": "site",
 			"enabled": true
 		},
 		{
 			"key": "subject_id",
+			"value": "931",
 			"type": "text",
-			"value": "931"
+			"name": "subject_id",
+			"enabled": true
 		},
 		{
 			"key": "app_apkId",
+			"value": "com.amazon.kindle",
 			"type": "text",
-			"value": "com.workflowy.android"
+			"name": "app_apkId",
+			"enabled": true
+		},
+		{
+			"key": "helper",
+			"value": "helper.voga360.com",
+			"type": "text",
+			"name": "helper",
+			"enabled": true
+		},
+		{
+			"key": "wall_subject_id",
+			"value": "1044",
+			"type": "text",
+			"name": "wall_subject_id",
+			"enabled": true
+		},
+		{
+			"key": "eb_subject_id",
+			"value": "1013",
+			"type": "text",
+			"name": "eb_subject_id",
+			"enabled": true
+		},
+		{
+			"key": "server",
+			"value": "server.voga360.com",
+			"type": "text",
+			"name": "server",
+			"enabled": true
+		},
+		{
+			"key": "music_subject_id",
+			"type": "text",
+			"value": "1040"
 		}
 	],
-	"timestamp": 1415702741095,
+	"timestamp": 1417769593952,
 	"synced": false,
 	"syncedFilename": ""
 }
-
